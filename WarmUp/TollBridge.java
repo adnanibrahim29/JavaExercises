@@ -1,5 +1,6 @@
 package WarmUp;
 
+
 public class TollBridge {
     public static void main(String [] args){
         
