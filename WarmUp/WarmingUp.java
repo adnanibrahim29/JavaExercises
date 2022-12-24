@@ -1,10 +1,8 @@
-package GettingStarted;
+package WarmUp;
 
 // Testing out with String and Variables
 // Starting out basic programs
  
-
-
 public class WarmingUp {
     public static void main(String [] args){
         System.out.println();
