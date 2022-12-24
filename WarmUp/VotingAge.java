@@ -1,5 +1,6 @@
 package WarmUp;
 
+
 public class VotingAge {
     public static void main(String [] args){
 
