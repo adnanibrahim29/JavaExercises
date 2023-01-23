@@ -27,7 +27,7 @@ public class DecToBin {
         }
 
         System.out.println();
-        System.out.println(binary);
+        System.out.println("The Binary value is: " + binary);
 
 
 
