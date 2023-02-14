@@ -36,6 +36,9 @@ public class SumOfOdd {
 
         int [][] arr = new int[rows][cols];
 
+        System.out.println();
+
+        System.out.println("Enter values: ");
         for(int r = 0; r < rows; r++){
             for(int c = 0; c < cols; c++){
                 arr[r][c] = sc.nextInt();
