@@ -29,6 +29,5 @@ public class Decode {
             }
         }while(decimalVal != 27);
         sc.close();
-        
     }
 }
