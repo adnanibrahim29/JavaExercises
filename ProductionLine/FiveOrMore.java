@@ -20,6 +20,7 @@ public class FiveOrMore {
 
         String [] words = input.split(" ");
         String rev = "";
+        sc.close();
         
         for(int i = 0; i < words.length; i++){
             if(words[i].length() > 5){
