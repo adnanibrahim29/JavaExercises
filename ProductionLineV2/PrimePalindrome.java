@@ -21,14 +21,9 @@ public class PrimePalindrome {
         }
     }
     public static boolean isPrime(int N){
-        int count = 0;
-        int result = 0;
-
         if(N % 2 == 0 || N % 3 == 0 || N % 5 == 0 || N % 7 == 0){
             return false;
         } else{
-            result = N;
-            count++;
         }return true;
     }
     public static boolean isPalindrome(int N){
