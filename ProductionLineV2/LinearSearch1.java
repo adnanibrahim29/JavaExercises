@@ -38,6 +38,8 @@ public class LinearSearch1 {
         double input = sc.nextDouble();
         sc.close();
 
+        System.out.println();
+        
         boolean found = findElement(num, input);
         if(found){
             System.out.println(input + " was found");
