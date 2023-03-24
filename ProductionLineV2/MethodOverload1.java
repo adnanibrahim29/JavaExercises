@@ -44,34 +44,41 @@ public class MethodOverload1 {
         System.out.println("Enter a shape");
         String shape = sc.nextLine();
 
+        System.out.println();
+
         switch(shape){
             case "square":
                 System.out.println("Enter Length: ");
                 int a = sc.nextInt();
-                System.out.println(area(a)); break;
+                System.out.println();
+                System.out.println("Area = " + area(a)); break;
 
             case "rectangle":
                 System.out.println("Enter Size: ");
                 int b = sc.nextInt();
                 int c = sc.nextInt();
-                System.out.println(area(b,c)); break;
+                System.out.println();
+                System.out.println("Area = " + area(b,c)); break;
 
             case "triangle":
                 System.out.println("Enter Size: ");
                 double d = sc.nextDouble();
                 int e = sc.nextInt();
-                System.out.println(area(d, e)); break;
+                System.out.println();
+                System.out.println("Area = " + area(d, e)); break;
             
             case "circle":
                 System.out.println("Enter Size: ");
                 double f = sc.nextDouble();
-                System.out.println(area(f)); break;
+                System.out.println();
+                System.out.println("Area = " + area(f)); break;
             
             case "ellipse":
                 System.out.println("Enter size");
                 double g = sc.nextDouble();
                 double h = sc.nextDouble();
-                System.out.println(area(g, h)); break;
+                System.out.println();
+                System.out.println("Area = " + area(g, h)); break;
 
             default: System.out.println("Invalid Shape!");
             sc.close();
