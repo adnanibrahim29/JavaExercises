@@ -1,0 +1,35 @@
+Description
+
+Part A:
+Write a class to represent a Square called BasicSquare. This should include the following:
+
+1. A single attribute named len.
+2. A default constructor which will set the value of len to 1.
+3. A general constructor which should set the len to a value which is passed to the constructor.
+4. Getter and setter methods for the len attribute.
+5. A method called getPerimeter to calculate and return the perimeter of the BasicSquare.
+6. A method called getArea to calculate and return the area of the BasicSquare.
+
+Part B:
+Write a main method in a new class called TestBasicSquare and in this method:
+
+1. Create three BasicSquare objects using the default constructor.
+2. The len of each square should be set by user input using the setLen method.
+3. Print the length of the side of each square object (see sample output below).
+4. Use the getPerimeter() method and print the perimeter of each square.
+5. Use the getArea() method and print the area of each square (see sample output below).
+
+Output
+The TestBasicSquare class should print to the screen the correct message to match each part of the questions given above.
+
+Sample Output - output should be exactly as below:
+
+    Square 1 has a side of length 5 
+    Square 2 has a side of length 7 
+    Square 3 has a side of length 3 
+    Square 1 has a perimeter of 20 
+    Square 2 has a perimeter of 28 
+    Square 3 has a perimeter of 122 
+    Square 1 has an area of 25 
+    Square 2 has an area of 49 
+    Square 3 has an area of 9
