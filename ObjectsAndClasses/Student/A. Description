@@ -1,0 +1,43 @@
+Description
+Part A:
+Write a class to represent a Student. This should include the following:
+
+1. Attributes for the Student's name (String), course(String), and a unique studentID(int).
+2. A default constructor which should set default values for all attributes.
+3. A second constructor which accepts and sets values for each of the attributes.
+4. Getter and setter methods for the name, and course.
+5. A Getter method for the studentID.
+6. A method called showStudent() that takes no parameters, returns nothing and prints the information for each student to the screen followed by a separation "---". (See sample output below).
+
+Part B:
+Write a main method in a new class called TestStudent and in this method:
+
+1. Declare an array of 3 Student objects. Instantiate each of the Student objects by obtaining the necessary attribute values from a user through keyboard input. See sample output of main method as a guide for correct input.
+2. Print the details of each student using the showStudent() method.
+3. Jacob in his first week decided he enjoyed Computer Science modules more and moved into CSSE. Use the relevant methods to change his course. Print Jacob's details to the screen.
+4. Louise noticed an error with her name. Use the relevant method to correct the spelling to "Louise Johnson" and print just her name to the screen.
+
+Sample Output of showStudent()
+    Name: Andrew Trimble
+    Course: Media Studies
+    Student ID: 1001
+    ---
+
+Sample Output of Main Method
+    Name: Jacob Gallagher
+    Course: Biotechnology
+    Student ID: 1001
+    ---
+    Name: Frank Simons
+    Course: CSSE
+    Student ID: 1002
+    ---
+    Name: Louise Johnsen
+    Course: Computational Thinking
+    Student ID: 1003
+    ---
+    Name: Jacob Gallagher
+    Course: CSSE
+    Student ID: 1001
+    ---
+    Louise Johnson
