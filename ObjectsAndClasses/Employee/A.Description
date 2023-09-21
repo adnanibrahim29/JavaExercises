@@ -1,0 +1,60 @@
+Description
+
+You are provided with a class to represent an Employee. That includes the following:
+
+1. Attributes for the Employee’s name (String), jobTitle (String), salary (float) and a unique employeeID (int). The salary should have a minimum value of 19000f.
+2. A default constructor which should set default values for all attributes.
+3. A general constructor which accepts and sets values for each of the attributes.
+4. Getter and setter methods for the name, jobTitle and salary.
+5. A Getter method for the employeeID.
+6. A method called showEmp() that takes no parameters, returns nothing and prints the information for each employee to the screen. (See sample output below for format, in bold).
+7. A method called toString() that returns a String representation of the attributes of an Employee (see sample output below for format, in italics).
+
+Part A:
+Write a main method in a new class called TestEmployee and in this method:
+
+1. Declare 3 Employee objects. Use the General Constructor for the first 2 Employees and the default constructor for the last employee. Details for Employee 1 and 2 are as follows:
+    Tom Daly	    Teacher	    45000
+    Mary Murphy	    Developer	30000
+
+2. Call the getName(), getJobTitle(), getSalary() and getEmployeeID() methods to print the information of the 2nd Employee to the screen (it should be displayed exactly as the sample output below).
+
+3. Call the setName(<…>), setJobTitle(<…>) and setSalary(<…>) method to change the information of the 3rd Employee. Use the following details:
+    Name = Michael Higgins
+    jobTitle = President
+    Salary = 1000
+
+4. Use the showEmp() method to print all the information for all Employees to the screen (it should be displayed exactly as the sample output below).
+
+5. Call the toString() method on the 1st Employee object.
+
+Output
+
+The TestEmployee class should print to the screen the correct message to match each question given above.
+
+Sample Output - output should be exactly as below:
+
+    Employee 2 is called Mary Murphy
+    They are a Developer 
+    Their salary is 30000.0 
+    Their Employee ID number is 1002 
+    Entered salary of 1000.0 is too low. Salary set at minium wage of 19000.0 
+    EMPLOYEE RECORD
+    NAME: Tom Daly 
+    JOB TITLE: Teacher 
+    CURRENT SALARY: 45000.0 
+    EMPLOYEE ID: 1001 
+    EMPLOYEE RECORD 
+    NAME: Mary Murphy 
+    JOB TITLE: Developer
+    CURRENT SALARY: 30000.0 
+    EMPLOYEE ID: 1002 
+    EMPLOYEE RECORD 
+    NAME: Michael Higgins 
+    JOB TITLE: President 
+    CURRENT SALARY: 19000.0 
+    EMPLOYEE ID: 1003 
+    NAME: Tom Daly 
+    JOB TITLE: Teacher 
+    CURRENT SALARY: 45000.0 
+    EMPLOYEE ID: 1001
