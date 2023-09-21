@@ -1,0 +1,34 @@
+Description
+
+Part A:
+Write a class to represent a Square. This should include the following:
+
+1. A single attribute named length.
+2. A default constructor which should set the length attribute to a default value of 1.
+3. A general constructor which should set the length attribute to a value which is passed to the constructor.
+4. Getter and setter methods for the length attribute.
+5. A method, called getArea(), to calculate and return the area of the Square.
+6. A method called toString() that returns the value of the attribute length (see sample output in bold below for format).
+
+Part B:
+Write a main method in a new class called TestSquare and in this method:
+
+1. Create an array containing 4 Square objects.
+2. Use a loop to set each object to default values when created.
+3. Use the setter method on the 1st and 3rd objects in the array of Square objects to set the length to 10.
+4. Print out the length of each of Square object in the array.
+5. Print out the area of the 1st and 2nd objects in the array.
+6. Call the toString() method on the 3rd Square object in the array.
+
+Output
+The TestSquare class should print to the screen the correct message to match each question given above.
+
+Sample Output - output should be exactly as below:
+
+    Square 1 has a side length of 10
+    Square 2 has a side length of 1
+    Square 3 has a side length of 10
+    Square 4 has a side length of 1
+    Square 1 has an area of 100
+    Square 2 has an area of 1
+    LENGTH: 10
