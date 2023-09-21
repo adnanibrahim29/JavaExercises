@@ -1,0 +1,39 @@
+Description
+Part A, Vehicle Class:
+You have been provided with a class Vehicle. Within this class there are attributes, an integer noOfDoors representing the number of doors on a vehicle and a String brand representing the vehicle’s brand. There is a Default and General Constructor along with relevant Getter and Setter Methods. This will act as a Parent Class from which you will inherit from with Car and SUV classes.
+
+Some methods and constructors are pre-coded for you and do not need to be changed. You should read through Vehicle.java and the pre-coded sections of each other class.
+
+Part B, Car Class:
+1. Make the Car class allow inheritance from Vehicle using a keyword.
+2. Create a Boolean attribute in Car called sportsModel that is true if the car is a sports model otherwise false.
+3. Write a default constructor for Car which should use the keyword super to invoke Vehicles constructor and sets sportsModel to false. Look at Vehicles General Constructor to see what the parameters are for correct use.
+4. Create a second constructor with an integer parameter, a String parameter and a boolean parameter. These parameters invoke Vehicles General Constructor and set sportsModel to the Boolean parameter.
+
+Part C, SUV Class:
+1. Make the SUV class allow inheritance from Vehicle using a keyword.
+2. Write a general constructor for SUV that takes in an integer, and 2 Strings as parameters. wheelDrive should equal the 2nd String. wheelDrive represents whether the drive of SUV is “rear”, “front” or “4”. The other two parameters will be used for Vehicle’s constructor.
+3. Create getter and setter methods for wheelDrive with the signature getDrive() and setDrive(<…>).
+
+Part D, Tester Class:
+1.Create a tester class Tester which is a simple program with only a main method.
+2. Create a SUV object called suv1 using it’s default constructor.
+3. Create another SUV object using the general constructor, called suv2, with the values 2 for number of doors, “Nissan” for brand and “4” to represent 4-wheel-drive.
+4. Create a Car object called car1 with the values 3, “Ford” and true (to represent sports model).
+5. Use the relevant setter method to set suv1’s brand to “BMW”. Set the drive to “rear” and set noOfDoors to 5.
+6. Use Vehicle’s printDetails() method to print out suv1’s details and use getDrive() and a print statement to print suv1’s wheelDrive. See sample output.
+7. Set car1’s noOfDoors to 5. Use printDetails() on car1. Use a print statement and isSportsModel() to show whether car1 is a sportsModel. See sample output.
+
+NOTE
+Notice how you are able to use Vehicle’s constructors as part of your more specific Car and SUV constructors. You are able to use Vehicle’s methods with the Car and SUV objects you created. Notice with the print statements in Vehicle’s constructors whether the general or default constructor is being invoked.
+
+Sample Output
+    Default Constructor of the Super class called
+    General Constructor of Vehicle called
+    General Constructor of Vehicle called
+    5
+    BMW
+    rear
+    5
+    Ford
+    false
