@@ -1,0 +1,56 @@
+Description
+Part A: Animal.java
+Create a class called Animal, That should include the following:
+
+1. A String attribute named animalDiet & a String attribute named animalSound.
+2. A default constructor which should set both string attribute’s values to “undefined”.
+3. A second constructor which takes two String parameters and sets the animalDiet and animalSound to these parameters.
+4. Getter and setter methods for animalDiet and animalSound.
+5. A method, called printDetails(), to print the attributes created in the format shown below.
+
+Part B:
+Create separate classes for each of the classes: Horse, Dog and Tiger in the relevant files. Use the keyword extends to make these classes inherit from the Animal class. In each of these classes create a default constructor which makes a call to the superclass default constructor. In each of these classes create a second constructor which takes two String parameters and makes a call to the superclass constructor passing it these values.
+
+Part C:
+In the Dog Class:
+
+1. Create an int attribute called numDogBiscuitsEaten.
+2. Add code to both of the Dog constructors that sets numDogBiscuitsEaten to 0.
+3. Add a getter method for the attribute numDogBiscuitsEaten called getBiscuitsEaten().
+4. Add a method called eatDogBiscuit() which will have no parameters and will not return anything but will add one to numDogBiscuitsEaten.
+
+Part D:
+In the Horse Class:
+
+1. Create an int attribute called speed.
+2. Add code to the default Horse constructor that sets speed to 35.
+3. Add code to the 2nd Horse constructor that changes speed to a value passed to the constructor (Do not remove other parameters.).
+4. Getter and setter methods for speed
+
+Part E:
+Create a tester class GeneralTester which is a simple program with a main method.
+
+1. Create a Dog object using it’s default constructor.
+2. A Tiger object with the values "omnivore" and "purr" for it’s inherited attributes.
+3. A Horse object with the values "herbivore", "neigh" and 40.
+4. Call the printDetails() method on the Dog object.
+5. Set the Dog inherited animalSound attribute to “woof”.
+6. Call the Dog eatDogBiscuit() method on the Dog object.
+7. Call the printDetails() method on the Dog object again. Use a print statement and the getBiscuitsEaten() method to print the value returned to the screen.
+8. Call the printDetails() method on the Horse object.
+9. Set the Horse object’s speed attribute to 48. Use the appropriate getter method to return the updated speed attribute and print it to the screen.
+10. Set the Tiger object’s inherited animalDiet attribute to “carnivore”.
+11. Call printDetails() on the Tiger object.
+
+Sample Output
+
+Diet: undefined
+Animal Sound: undefined
+Diet: undefined
+Animal Sound: woof
+1
+Diet: herbivore
+Animal Sound: neigh
+48
+Diet: carnivore
+Animal Sound: purr
