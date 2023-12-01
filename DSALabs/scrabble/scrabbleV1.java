@@ -1,10 +1,21 @@
 import java.util.*;
 
+/*
+    Scrabble Points ->
+    1 point – A E I O U L N S T R
+    2 points – D G
+    3 points – B C M P
+    4 points – F H V W Y
+    5 points – K
+    8 points – J X
+    10 points – Q Z
+*/
 
+// Version 1
 public class scrabbleV1 {
     public static Scanner sc = new Scanner(System.in);
     public static void main(String [] args){
-        
+
         System.out.println("Enter number of words you want to Enter: ");
         int n = sc.nextInt();
         sc.nextLine();
@@ -82,7 +93,7 @@ public class scrabbleV1 {
                 case 'Z':
                     score += 10;
                     break;
-            }   
+            }
         }
         return score; // Returns total score
     }
