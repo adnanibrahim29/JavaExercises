@@ -14,6 +14,7 @@ public class brain {
         // Deciding the next move based on the available directions
 
         // Works by pushing the opposite direction into the stack
+        // Integrating DFS
         if (north && !visited[posX - 1][posY]) {
             movements.push("south");
             visited[posX - 1][posY] = true; // Updates to check the previous position when visited
