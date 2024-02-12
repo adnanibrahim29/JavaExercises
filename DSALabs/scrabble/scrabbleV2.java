@@ -33,6 +33,7 @@ public class scrabbleV2 {
         for (int i = 0; i < n; i++) {
             System.out.println(arr[i]); // Print the sorted array of strings
         }
+        sc.close();
     }
 
     // Method to calculate the Scrabble score of a word
