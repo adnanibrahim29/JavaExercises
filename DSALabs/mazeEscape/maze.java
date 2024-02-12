@@ -37,7 +37,7 @@ public class maze {
         }
         
         // Initializing the brain to guide movement
-        Brain myBrain = new Brain();
+        brain myBrain = new brain();
         while (lives > 0) {
             // Visualizing current position in the maze
             System.out.println("Current position: " + posX + " " + posY);
